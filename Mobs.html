@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Creeper - Minecraft</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+                /* MENU */
+        .menu {
+            background-color: #2ecc71;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            background: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+            /* CONTEÚDO */
+        h1 {
+            color: #2ecc71;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
+
+                /* BOTÃO */
+        .botao {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .creeper{
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-center{
+            display: flex;
+            justify-content: center;
+        }
+
+        .imagem{
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        }
+        
+        .titulo {
+        color: green;
+        text-align: center;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        }
+
+        audio{
+            background-color: #2ecc71;
+            padding: 2px;
+            border-radius: 60px;
+        }
+
+        .mods{
+            display: flex;
+            justify-content: center;
+        }
+
+        .tabela{
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            height: auto;
+            width: 550px;
+            border-collapse: collapse;
+            background-color: #2ecc71;
+            margin-bottom: 30px;
+        }       
+
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo">Minecraft</h1>
+    <!-- MENU -->
+    <div class="menu">
+        <a href="index.html">Início</a>
+        <a href="#">Criatura</a>
+        <a href="https://tlauncher.org/" target="_blank">Baixar</a>
+    </div>
+
+    <h1 class="creeper">Creeper</h1>
+
+    <div class="img-center">
+        <img class="imagem" src="WhatsApp Image 2026-04-04 at 00.06.49 (1).jpeg">
+    </div>
+    <!-- CONTEÚDO -->
+    <div class="container">
+
+        <p>
+            O Creeper é uma das criaturas mais famosas do Minecraft.
+            Ele é conhecido por se aproximar silenciosamente do jogador
+            e explodir, causando muito dano.
+        </p>
+
+        <h2>Características</h2>
+        <ul>
+            <li>Aparece durante a noite</li>
+            <li>Não faz barulho ao andar</li>
+            <li>Explode quando chega perto</li>
+        </ul>
+
+        <h2>Vantagens</h2>
+        <ul>
+            <li>Dropeia pólvora</li>
+            <li>Pode ajudar a quebrar blocos</li>
+        </ul>
+
+        <h2>Desvantagens</h2>
+        <ul>
+            <li>Explosão forte</li>
+            <li>Pode destruir construções</li>
+        </ul>
+
+        <audio controls>
+            <source src="Audio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <h2 class="mods">Lista de Mods</h2>
+
+    <div class="tabela">
+        <table border="1">
+            <tr>
+                <th>Mod</th>
+                <th>Descrição</th>
+                <th>Versão</th>
+                <th>Download</th>
+            </tr>
+
+            <tr>
+                <td>OptiFine</td>
+                <td>Melhora o desempenho e gráficos</td>
+                <td>1.20</td>
+                <td><a href="#">Baixar</a></td>
+            </tr>
+
+            <tr>
+                <td>Just Enough Items</td>
+                <td>Mostra receitas no jogo</td>
+                <td>1.20</td>
+                <td><a href="#">Baixar</a></td>
+            </tr>
+
+            <tr>
+                <td>JourneyMap</td>
+                <td>Mapa em tempo real</td>
+                <td>1.20</td>
+                <td><a href="#">Baixar</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

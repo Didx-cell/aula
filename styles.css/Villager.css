@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    background-image: url(../pag_villagers/vila.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.nav{
+    flex-direction: row; 
+    align-items: center; 
+    display: flex; 
+    background-color: #4ac317; 
+    padding: 10px 20px; 
+    gap: 25px;
+}
+.logo{
+    width: 231px; 
+    height: 60px;
+}
+.baixar{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    margin-left: auto; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.itens{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.villagers{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.biomas{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TITULO{
+    color: rgb(143, 98, 46);
+    text-align: center;
+    border: 2px solid rgb(199, 137, 66); 
+    width: 20%; 
+    background-color: rgb(255, 250, 210); 
+    font-size: 25px;
+    box-shadow: 0 0 5px #ffdbab, 
+    0 0 10px #ffd1ab, 
+    0 0 20px rgb(255, 173, 66), 
+    0 0 2px rgb(255, 205, 98), 
+    0 0 0.5px rgb(255, 186, 121);
+    border-radius: 60px;
+}
+.DESCRICAO{
+    color: rgb(143, 98, 46);
+    text-align: center;
+    border: 2px solid rgb(199, 137, 66); 
+    width: 95%; 
+    background-color: rgb(255, 250, 210); 
+    font-size: 25px;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 37px;
+    box-shadow: 0 0 5px #ffdbab, 
+    0 0 10px #ffd1ab, 
+    0 0 20px rgb(255, 173, 66), 
+    0 0 40px rgb(255, 205, 98), 
+    0 0 0.5px rgb(255, 186, 121);
+}
+main{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+table{
+    width: 500px;
+    background-color: rgb(255, 250, 210);
+}
+
+.Villagers{
+    border: 2px solid rgb(199, 137, 66); 
+    text-align: center;
+    font-size: 35px;
+    color: rgb(143, 98, 46);
+}
+.Biomas{
+    border: 2px solid rgb(199, 137, 66); 
+    text-align: center;
+    font-size: 35px;
+    color: rgb(143, 98, 46);
+}
+.Planice{
+    border: 2px solid rgb(199, 137, 66); 
+    text-align: center;
+    color: rgb(143, 98, 46);
+    font-size: 30px;
+}
+.Deserto{
+    border: 2px solid rgb(199, 137, 66); 
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.Neve{
+    border: 2px solid rgb(199, 137, 66); 
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.Pantano{
+    border: 2px solid rgb(199, 137, 66); 
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.Savana{
+    border: 2px solid rgb(199, 137, 66);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.Selva{
+    border: 2px solid rgb(199, 137, 66);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.Taiga{
+    border: 2px solid rgb(199, 137, 66);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.Zombie{
+    border: 2px solid rgb(199, 137, 66);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 98, 46);
+}
+.img{
+    width: 90px;
+    height: auto;
+}
+.img-pantano{
+    width: 70px;
+}
+.img-selva{
+    width: 70px;
+}
+.titulo-vilas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.titulo{
+    color: rgb(143, 98, 46);
+    text-align: center;
+    border: 2px solid rgb(199, 137, 66); 
+    width: 200px; 
+    background-color: rgb(255, 250, 210); 
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 37px;
+    box-shadow: 0 0 5px #ffdbab, 
+    0 0 10px #ffd1ab, 
+    0 0 20px rgb(255, 173, 66), 
+    0 0 40px rgb(255, 205, 98), 
+    0 0 0.5px rgb(255, 186, 121);
+}
+.descricao-vila{
+    color: rgb(143, 98, 46);
+    text-align: justify;
+    border: 2px solid rgb(199, 137, 66); 
+    width: 1200px; 
+    background-color: rgb(255, 250, 210); 
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -10px;
+    border-radius: 37px;
+    box-shadow: 0 0 5px #ffdbab, 
+    0 0 10px #ffd1ab, 
+    0 0 20px rgb(255, 173, 66), 
+    0 0 40px rgb(255, 205, 98), 
+    0 0 0.5px rgb(255, 186, 121);
+}
+
+.vila{
+    width: 1000px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 250, 210);
+}
